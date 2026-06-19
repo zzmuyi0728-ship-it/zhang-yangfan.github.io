@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blog / Notes｜张扬帆</title>
+  <meta name="description" content="张扬帆的文章、随感与研究札记归档。" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <h1 class="site-title"><a href="index.html">Zhang Yangfan's Homepage</a></h1>
+      <p class="site-subtitle">articles, notes, and research fragments</p>
+    </div>
+    <nav class="nav" aria-label="主导航">
+      <a href="index.html">[TOP]</a>
+      <a href="archive.html">[BLOG]</a>
+      <a href="index.html#research">[RESEARCH]</a>
+      <a href="index.html#publications">[PUBLICATIONS]</a>
+      <a href="about.html">[ABOUT]</a>
+      <a href="mailto:zzmuyi0728@gmail.com">[MAIL]</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="section-block first">
+      <h2>Blog / Notes</h2>
+      <p class="section-note">正式文章、研究札记、读书记录与短随感都可以放在这里。</p>
+      <div class="toolbar">
+        <input id="search" type="search" placeholder="搜索标题、摘要、标签……" aria-label="搜索文章" />
+        <select id="tag-filter" aria-label="按标签筛选">
+          <option value="">全部标签</option>
+        </select>
+      </div>
+      <div id="archive-list" class="archive-list" aria-live="polite"></div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>© <span id="year"></span> 张扬帆 / Zhang Yangfan. Built as a plain static website.</p>
+  </footer>
+
+  <script src="assets/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-label="Research notes sample image">
+  <rect width="1000" height="560" fill="#eee7d9"/>
+  <rect x="60" y="55" width="880" height="450" rx="8" fill="#fffef8" stroke="#d7d0c4" stroke-width="3"/>
+  <text x="105" y="125" font-family="Georgia, serif" font-size="44" fill="#171717">Research Notes</text>
+  <line x1="105" y1="165" x2="895" y2="165" stroke="#d7d0c4" stroke-width="3"/>
+  <text x="105" y="225" font-family="Georgia, serif" font-size="28" fill="#5f5a52">• Maruyama Masao</text>
+  <text x="105" y="280" font-family="Georgia, serif" font-size="28" fill="#5f5a52">• Postwar thought</text>
+  <text x="105" y="335" font-family="Georgia, serif" font-size="28" fill="#5f5a52">• Empire and knowledge</text>
+  <text x="105" y="430" font-family="Georgia, serif" font-size="22" fill="#7b1e1e">Replace this SVG with your own image.</text>
+</svg>

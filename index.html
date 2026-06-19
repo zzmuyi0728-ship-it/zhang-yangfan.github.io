@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>张扬帆 / Zhang Yangfan</title>
+  <meta name="description" content="张扬帆的个人网站：文章、随感、研究札记、出版物与读书记录。" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header id="top" class="site-header">
+    <div>
+      <h1 class="site-title"><a href="index.html">Zhang Yangfan's Homepage</a></h1>
+      <p class="site-subtitle">Japanese intellectual history · postwar thought · research notes</p>
+    </div>
+    <nav class="nav" aria-label="主导航">
+      <a href="index.html">[TOP]</a>
+      <a href="archive.html">[BLOG]</a>
+      <a href="#research">[RESEARCH]</a>
+      <a href="#publications">[PUBLICATIONS]</a>
+      <a href="about.html">[ABOUT]</a>
+      <a href="mailto:zzmuyi0728@gmail.com">[MAIL]</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="intro-layout">
+      <div class="intro-text">
+        <h2>Introduction</h2>
+        <p>我是海德堡大学日本研究方向的博士生，主要研究战后日本思想史、丸山真男、帝国知识的延续以及冷战语境中的政治思想。</p>
+        <p>这个网站用于保存文章、随感、读书札记和研究过程中的中间性思考。它不追求社交媒体式的即时更新，而更像一个可以长期维护的个人知识档案。</p>
+      </div>
+      <figure class="profile-figure">
+        <img src="assets/images/profile-placeholder.svg" alt="个人照片占位图" />
+        <figcaption>这里可以替换为你的个人照片、书房照片或研究相关图片。</figcaption>
+      </figure>
+    </section>
+
+    <section id="blog" class="section-block">
+      <div class="section-title-row">
+        <h2>Blog / Notes</h2>
+        <a href="archive.html">All posts →</a>
+      </div>
+      <p class="section-note">最近更新的文章、随感和读书札记。</p>
+      <div id="latest-posts" class="plain-list" aria-live="polite"></div>
+    </section>
+
+    <section id="research" class="section-block">
+      <h2>Research</h2>
+      <ul class="research-list">
+        <li><strong>Maruyama Masao and postwar Japanese thought.</strong> 关注丸山真男的经典化、批判性接受，以及“战后思想”作为历史对象的生成。</li>
+        <li><strong>Empire, knowledge, and intellectual history.</strong> 追问帝国时期形成的知识结构如何在战后的思想生产中继续发挥作用。</li>
+        <li><strong>Cold War liberalism and East Asian intellectual networks.</strong> 将日本思想史放入冷战、东亚与跨国思想网络中重新理解。</li>
+      </ul>
+    </section>
+
+    <section id="publications" class="section-block">
+      <h2>Publications / Works in Progress</h2>
+      <ul class="publication-list">
+        <li>“‘战后思想’的生成与帝国知识的延续”——论文写作中。</li>
+        <li>“The Shadow of Empire: Maruyama Masao and the Return of Imperial Knowledge in Postwar Japan”——英文论文计划。</li>
+        <li>这里可以继续放论文、书评、译文、会议发表和课程报告。</li>
+      </ul>
+    </section>
+
+    <section class="section-block compact">
+      <h2>How to update</h2>
+      <p>文章内容保存在 <code>data/posts.json</code>。图片放入 <code>assets/images/</code>，然后在文章正文中用 <code>![图片说明](assets/images/文件名.jpg)</code> 插入。</p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>© <span id="year"></span> 张扬帆 / Zhang Yangfan. Built as a plain static website.</p>
+  </footer>
+
+  <script src="assets/site.js"></script>
+</body>
+</html>

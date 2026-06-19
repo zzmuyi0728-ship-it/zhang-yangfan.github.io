@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="900" viewBox="0 0 700 900" role="img" aria-label="Profile placeholder">
+  <rect width="700" height="900" fill="#eee7d9"/>
+  <rect x="38" y="38" width="624" height="824" fill="#fffef8" stroke="#d7d0c4" stroke-width="4"/>
+  <circle cx="350" cy="300" r="105" fill="#d8cfbf"/>
+  <path d="M175 705c30-150 120-230 175-230s145 80 175 230" fill="#d8cfbf"/>
+  <text x="350" y="800" text-anchor="middle" font-family="Georgia, serif" font-size="44" fill="#5f5a52">PHOTO</text>
+</svg>
