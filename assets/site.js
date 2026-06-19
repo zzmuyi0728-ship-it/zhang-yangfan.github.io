@@ -19,7 +19,7 @@ const readingTime = (body = '') => {
   const zh = (body.match(/[\u4e00-\u9fff]/g) || []).length;
   const words = (body.replace(/[\u4e00-\u9fff]/g, '').match(/[A-Za-z0-9_]+/g) || []).length;
   const minutes = Math.max(1, Math.round((zh / 450) + (words / 220)));
-  return `${minutes} 分钟阅读`;
+  return `${minutes} min read`;
 };
 
 const renderTags = (tags = []) => tags.map(tag => `<span class="tag">${escapeHTML(tag)}</span>`).join('');
