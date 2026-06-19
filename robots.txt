@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zzmuyi0728-ship-it.github.io/zhang-yangfan.github.io/sitemap.xml
