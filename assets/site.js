@@ -15,6 +15,13 @@ const formatDate = (iso) => {
   return new Intl.DateTimeFormat('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(iso));
 };
 
+const readingTime = (body = '') => {
+  const zh = (body.match(/[\u4e00-\u9fff]/g) || []).length;
+  const words = (body.replace(/[\u4e00-\u9fff]/g, '').match(/[A-Za-z0-9_]+/g) || []).length;
+  const minutes = Math.max(1, Math.round((zh / 450) + (words / 220)));
+  return `${minutes} 分钟阅读`;
+};
+
 const renderTags = (tags = []) => tags.map(tag => `<span class="tag">${escapeHTML(tag)}</span>`).join('');
 
 const inline = (text) => escapeHTML(text)
@@ -92,7 +99,7 @@ function postItem(post) {
     <div>
       <h3 class="post-title"><a href="post.html?slug=${encodeURIComponent(post.slug)}">${escapeHTML(post.title)}</a></h3>
       <p class="post-excerpt">${escapeHTML(post.excerpt)}</p>
-      <div class="tags">${renderTags(post.tags)}</div>
+      <div class="tags">${renderTags(post.tags)} <span class="tag">${readingTime(post.body)}</span></div>
     </div>
   </article>`;
 }
@@ -151,7 +158,7 @@ async function renderPost() {
 
   target.innerHTML = `<a class="back-link" href="archive.html">← Back to Blog</a>
     <h1>${escapeHTML(post.title)}</h1>
-    <div class="article-meta">${formatDate(post.date)}</div>
+    <div class="article-meta">${formatDate(post.date)} · ${readingTime(post.body)}</div>
     <div class="tags">${renderTags(post.tags)}</div>
     ${cover}
     <div class="article-body">${renderMarkdown(post.body)}</div>`;
