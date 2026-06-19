@@ -1,43 +1,15 @@
 [
   {
-    "slug": "postwar-thought-as-object",
-    "title": "“战后思想”作为历史对象",
-    "date": "2026-06-19",
+    "slug": "Re-examining Maruyama Masao’s “Origin Myth”",
+    "title": "Re-examining Maruyama Masao’s “Origin Myth”: Focusing on the Early Manuscripts Collected in the Tokyo Woman’s Christian University Masao Maruyama Collection",
+    "date": "2024",
     "tags": [
-      "战后思想",
-      "思想史",
-      "丸山真男"
+      "Maruyama Masao",
+      "Japanese Political Thoughts",
     ],
-    "excerpt": "与其把“战后思想”视为既定的思想谱系，不如追问它如何被叙述、纪念、编辑与制度化。",
+    "excerpt": "As a representative figure of postwar democracy in Japan, Maruyama Masao has long served as a source of intellectual inspiration, and a relatively fixed image of his thought has taken shape in subsequent scholarship. This article offers a different reading of the “origin myth” surrounding Maruyama, a myth constructed around his detention in 1933. Drawing on early manuscripts that have not yet received sufficient scholarly attention, it reexamines Maruyama’s early thought in its historical context. The article argues that this “myth of origins” is difficult to sustain. Nationalism and elitism constituted two important threads running through Maruyama’s early thought. His early political position remained largely consistent with the existing order of power. In confronting radical currents on both the left and the right, he defended the established system by taking nationalism as a premise and elitism as a means: he defined the qualifications for political participation while seeking to claim the discourse of patriotism. Reconsidering Maruyama’s early image is therefore essential for reinterpreting his later canonical theories, including his critique of the Tennōsei.",
     "published": true,
-    "image": "assets/images/sample-note.svg",
-    "image_alt": "研究札记图片示例：可以替换为书页、资料照片或手稿图片。",
-    "body": "## 问题的起点\n\n与其把“战后思想”视为一个已经完成的思想谱系，不如追问它本身如何成为历史对象。所谓“战后”，并不只是一个时间标记，也是一种叙事结构：它通过断裂、克服与救赎的故事，组织知识、人物与文本。\n\n这并不意味着战后思想只是虚构。更准确地说，它是一种被不断生产出来的历史现实。全集、解题、纪念文章、研究史与大学课程，都在参与这种现实的形成。\n\n## 图片插入示例\n\n下面这行就是文章内部插图。你可以把自己的图片放到 `assets/images/` 文件夹，然后用同样的格式插入。\n\n![研究札记图片示例](assets/images/sample-note.svg)\n\n## 可继续展开的问题\n\n- 谁在定义“战后思想”的中心人物？\n- 哪些经验被放入正统叙事，哪些经验被排除？\n- 学术研究如何在批判对象的同时，也参与了对象的再生产？\n\n> 个人网站的好处在于，可以把这些尚未成文、但已经构成问题意识的片段保留下来。"
+    "image": "assets/images/New History vol. 32.jpg",
+    "image_alt": "New History Vol. 32",
   },
-  {
-    "slug": "notes-on-reading",
-    "title": "读书札记的功能",
-    "date": "2026-06-16",
-    "tags": [
-      "读书",
-      "方法",
-      "札记"
-    ],
-    "excerpt": "读书札记不只是摘要，而是把材料转化为问题的中间环节。",
-    "published": true,
-    "body": "## 不是摘要，而是问题化\n\n读书札记最重要的功能并不是复述一本书的内容，而是记录阅读过程中被激发出来的问题。一本书之所以进入自己的研究，不只是因为它提供了事实或观点，而是因为它改变了问题的形状。\n\n因此，札记可以包含三类内容：\n\n- 作者真正说了什么；\n- 这本书解决了什么问题，又回避了什么问题；\n- 它和我自己的研究之间发生了什么关系。\n\n长期来看，个人网站可以成为这种札记的公开版本。它不必像正式论文那样完整，但应当足够清楚，能够在几年后被重新阅读。"
-  },
-  {
-    "slug": "why-personal-website",
-    "title": "为什么还需要个人网站",
-    "date": "2026-06-12",
-    "tags": [
-      "个人网站",
-      "写作",
-      "知识档案"
-    ],
-    "excerpt": "社交媒体适合即时表达，个人网站更适合长期保存、整理与公开呈现。",
-    "published": true,
-    "body": "社交媒体适合即时表达，但它不适合长期积累。个人网站的意义在于，它可以把分散的写作重新组织成一个可检索、可引用、可持续更新的知识档案。\n\n对研究者来说，个人网站至少有三种用途：\n\n- 放置已经发表或即将发表的文章信息；\n- 保存研究过程中形成的短札记；\n- 形成一个比简历更有质感的公开入口。\n\n它不必一开始就复杂。一个干净、稳定、容易更新的静态网站，往往比功能繁多但难以维护的平台更适合长期使用。"
-  }
 ]
