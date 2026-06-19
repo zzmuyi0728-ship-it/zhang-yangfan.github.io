@@ -92,7 +92,7 @@ function postItem(post) {
     <div>
       <h3 class="post-title"><a href="post.html?slug=${encodeURIComponent(post.slug)}">${escapeHTML(post.title)}</a></h3>
       <p class="post-excerpt">${escapeHTML(post.excerpt)}</p>
-      <div class="tags">${renderTags(post.tags)} <span class="tag">${readingTime(post.body)}</span></div>
+      <div class="tags">${renderTags(post.tags)}</div>
     </div>
   </article>`;
 }
@@ -151,7 +151,7 @@ async function renderPost() {
 
   target.innerHTML = `<a class="back-link" href="archive.html">← Back to Blog</a>
     <h1>${escapeHTML(post.title)}</h1>
-    <div class="article-meta">${formatDate(post.date)} · ${readingTime(post.body)}</div>
+    <div class="article-meta">${formatDate(post.date)}</div>
     <div class="tags">${renderTags(post.tags)}</div>
     ${cover}
     <div class="article-body">${renderMarkdown(post.body)}</div>`;
